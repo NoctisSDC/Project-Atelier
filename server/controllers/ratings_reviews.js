@@ -33,7 +33,6 @@ module.exports = {
   },
 
   postReview: function(req, res) {
-    // console.log(req.body)
     models.reviews.postAReview(req.body)
       .then(() => {
         res.status(201).send('review created')
