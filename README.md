@@ -24,9 +24,10 @@ Ratings and Reviews: Eric Ma (https://github.com/emm224)<br/>
 > This project is used to provide experience with developing the back end of an application to help support the front end. The main technologies used for the project is Node.js, express, AWS, loader.io, Nginx, docker, axios, jest, and Postgres. This application can be used as a template for developing the back end that is connect to a database instead of an API.
 
 # Requirements
-
-- Node.js
-- react
+- JavaScript <img align="left" alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/javascript.svg" />
+<br />
+- Node.js <img align="left" alt="Node JS" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
+<br />
 - babel
 - babel-loader
 - webpack
@@ -37,8 +38,10 @@ Ratings and Reviews: Eric Ma (https://github.com/emm224)<br/>
 
 # Installing Dependencies
 - axios
-- express
-- jest
+- express <img align="left" alt="Express" width="30px" src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" />
+<br />
+- jest <img align="left" alt="Jest" width="30px" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_jest.svg?sanitize=true" />
+<br />
 - morgan
 - nodemon
 - path

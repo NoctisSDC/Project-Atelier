@@ -8,10 +8,6 @@ module.exports = {
   getReview: function (product_id, pageNum, numReviews) {
     let queryString =
 
-      // select review of the input product id
-      // 'SELECT * FROM reviews WHERE product_id = $1'
-      // left join reviews table with my photos table hwere review id matches
-
       `with product_reviews as
 
       (
@@ -288,7 +284,6 @@ module.exports = {
 
   updateHelpful: function(review_id) {
     var queryString = 'update reviews set helpfulness = helpfulness+1 where id = $1'
-    console.log('this is review id', review_id)
     return db.query(queryString, [review_id])
   },
 
@@ -298,47 +293,6 @@ module.exports = {
   }
 
 }
-
-
-
-
-
-
-
-// SELECT *
-
-// FROM
-//   characteristics c
-
-// left join
-//   characteristic_reviews cr
-// on
-//   c.id = cr.characteristic_id
-
-// LIMIT 5
-
-
-//meta data
-
-// avg_rating as (
-//   select
-//     id,
-//     avg(value) as rating,
-//     name,
-//     product_id,
-//     review_id
-
-
-//   from
-//     char_review_summary
-
-//   group by
-//     id, name, product_id, review_id,
-// ),
-
-
-
-
 
 
 
